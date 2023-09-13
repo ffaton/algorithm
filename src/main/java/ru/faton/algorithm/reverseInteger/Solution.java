@@ -5,7 +5,7 @@ package ru.faton.algorithm.reverseInteger;
  */
 public class Solution {
 
-    public static int reverse(int x) {
+    public static int execute(int x) {
         try {
             StringBuilder res = new StringBuilder();
 

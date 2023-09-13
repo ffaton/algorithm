@@ -8,7 +8,7 @@ import java.util.Set;
  */
 public class Solution {
 
-    public static int lengthOfLongestSubstring(String s) {
+    public static int execute(String s) {
         int length = s.length();
         Set<Character> substr = new HashSet<>();
 

@@ -3,16 +3,16 @@ package ru.faton.algorithm.longestSubstringWithoutRepeatingCharacters;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static ru.faton.algorithm.longestSubstringWithoutRepeatingCharacters.Solution.lengthOfLongestSubstring;
+import static ru.faton.algorithm.longestSubstringWithoutRepeatingCharacters.Solution.execute;
 
 public class SolutionTest {
 
     @Test
     void success_test() {
-        assertEquals(lengthOfLongestSubstring("abcabcbb"), 3);
-        assertEquals(lengthOfLongestSubstring("bbbbb"), 1);
-        assertEquals(lengthOfLongestSubstring("pwwkew"), 3);
-        assertEquals(lengthOfLongestSubstring(" "), 1);
-        assertEquals(lengthOfLongestSubstring("au"), 2);
+        assertEquals(execute("abcabcbb"), 3);
+        assertEquals(execute("bbbbb"), 1);
+        assertEquals(execute("pwwkew"), 3);
+        assertEquals(execute(" "), 1);
+        assertEquals(execute("au"), 2);
     }
 }

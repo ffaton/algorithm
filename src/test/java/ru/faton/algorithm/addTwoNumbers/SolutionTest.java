@@ -13,7 +13,7 @@ public class SolutionTest {
         ListNode l2 = new ListNode(0);
         ListNode result = new ListNode(0);
 
-        Assertions.assertEquals(addTwoNumbers(l1, l2), result);
+        Assertions.assertEquals(execute(l1, l2), result);
     }
 
     @Test
@@ -22,7 +22,7 @@ public class SolutionTest {
         ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
         ListNode result = new ListNode(7, new ListNode(0, new ListNode(8)));
 
-        Assertions.assertEquals(addTwoNumbers(l1, l2), result);
+        Assertions.assertEquals(execute(l1, l2), result);
     }
 
     @Test
@@ -31,6 +31,6 @@ public class SolutionTest {
         ListNode l2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
         ListNode result = new ListNode(8, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(0, new ListNode(0, new ListNode(0, new ListNode(1))))))));
 
-        Assertions.assertEquals(addTwoNumbers(l1, l2), result);
+        Assertions.assertEquals(execute(l1, l2), result);
     }
 }

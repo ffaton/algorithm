@@ -5,7 +5,7 @@ package ru.faton.algorithm.palindromeNumber;
  */
 public class Solution {
 
-    public static boolean isPalindrome(int x) {
+    public static boolean execute(int x) {
         char[] str = String.valueOf(x).toCharArray();
         int length = str.length;
 

@@ -19,7 +19,7 @@ public class Solution {
         ListNode next;
     }
 
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public static ListNode execute(ListNode l1, ListNode l2) {
         ListNode result = null;
         ListNode nextNode = null;
         int overRange = 0;
